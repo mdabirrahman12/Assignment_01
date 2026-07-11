@@ -66,5 +66,54 @@ ul li a {
 }
 .hero-button{
     display: grid;
-    justify-content: center;
+justify-content: center;
+}
+/* Speaker Section style */
+
+.speakers-section{
+    margin: 10px 10px;
+    align-items: center;
+    align-content: center;
+}
+.speakers-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.speakers-row{
+    display:flex;
+    justify-content:center;
+    justify-items: center; 
+    gap: 45px;
+    margin-bottom: 30px;
+}
+.speaker{
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.014);
+    overflow: hidden;
+}
+.speaker-img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.speakers-topic{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 9px;
+    color: #2563EB;
+}
+.speakers-name{
+    font-weight: bold;
+    color: #0D1B2A;
+    font-size: 19px;
+
+}
+.spkers-designation{
+    font-size: 10px;
+color: #575757;
+margin-bottom: 10px;
 }
