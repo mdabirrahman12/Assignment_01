@@ -350,3 +350,28 @@ margin-bottom: 10px;
     width: 100%;
   }
 }
+/* footer style */
+.footer{
+  padding: 30px 60px;
+  background-color: #0D1B2A;
+
+}
+.footer-top{
+  display: flex;
+  justify-content:space-between;
+
+}
+.footer-menu{
+  display: flex;
+  align-content: space-between;
+  list-style:none;
+  gap: 20px;
+}
+.footer-menu-item{
+text-decoration: none;
+color: #ffffff;
+}
+.copyright-section{
+  margin-top: auto;
+  color: #ffffff;
+}
