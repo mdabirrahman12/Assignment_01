@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer</title>
     <link rel="stylesheet" href="./style.css">
+    <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <!-- header  -->
@@ -14,11 +19,11 @@
         <nav class="nav-menu">
             <!-- menu scetion -->
             <ul class="main-menu">
-                <li><a href="">Speakers</a></li>
-                <li><a href="">Schedule</a></li>
-                <li><a href="">Tracks</a></li>
-                <li><a href="">Venue</a></li>
-                <li><a href="">Blog</a></li>
+                <li><a class="menu-item" href="">Speakers</a></li>
+                <li><a class="menu-item" href="">Schedule</a></li>
+                <li><a class="menu-item" href="">Tracks</a></li>
+                <li><a class="menu-item" href="">Venue</a></li>
+                <li><a class="menu-item" href="">Blog</a></li>
             </ul>
             <div class="button right"><button class="primary-btn">Register Now</button></div>
         </nav>
@@ -44,13 +49,13 @@
                     <img class="speaker-img" src="./assets/andrej.png" alt="">
                     <p class="speakers-topic">AI/ML</p>
                     <h2 class="speakers-name">Andrej Karpathy</h2>
-                    <p class="spkers-designation">Pretraining team,Anthropic</p>
+                    <p class="common-text">Pretraining team,Anthropic</p>
                 </div>
                 <div class="speaker">
                     <img class="speaker-img" src="./assets/demis.png" alt="">
                     <p class="speakers-topic">CLOUD & DEVOPS</p>
                     <h2 class="speakers-name">Demis Hassabis</h2>
-                    <p class="spkers-designation">Co-Founder and CEO, Google DeepMind</p>
+                    <p class="common-text">Co-Founder and CEO, Google DeepMind</p>
                 </div>
             </div>
             <div class="speakers-row">
@@ -58,20 +63,76 @@
                     <img class="speaker-img" src="./assets/gary.png" alt="">
                     <p class="speakers-topic">FRONTEND</p>
                     <h2 class="speakers-name">Gary Marcus</h2>
-                    <p class="spkers-designation">Staff Engineer,Vercel</p>
+                    <p class="common-text">Staff Engineer,Vercel</p>
                 </div>
                 <div class="speaker">
                     <img class="speaker-img" src="./assets/mustafa.png" alt="">
                     <p class="speakers-topic">SECURITY</p>
                     <h2 class="speakers-name">Mustafa Suleyman</h2>
-                    <p class="spkers-designation">CEO of Microsoft AI</p>
+                    <p class="common-text">CEO of Microsoft AI</p>
                 </div>
             </div>
         </div>
     </section>
-    <section>
-        <div class="common-title"></div>
-    </section>
 
+    <!-- price section -->
+    <section class="">
+        <div class="price-list-title"><h1>Secure Your Spot</h1></div>
+        <div class="list-sub-title"><p>Early-bird pricing ends August 15, 2026.</p></div>
+        <!-- package-box -->
+        <div class="package-box">
+            <!-- package box one -->
+            <div class="package-item">
+                    <p class="common-package">STANDARD</p>
+                    <h2 class="package-price">$399</h2>
+                    <p class="common-package">per person</p>
+                    <hr>
+                    <ul class="package-option">
+                        <li>Access to all 3 conference days</li>
+                        <li>48 curated technical talks</li>
+                        <li>2 workshop sessions</li>
+                        <li>Networking lunch & coffee breaks</li>
+                        <li>Conference swag bag</li>
+                        <li>Digital recordings (30 days)</li>
+                    </ul>
+                    <button class="Standard-package-button">Get Standard</button>
+                </div>
+                <!-- package box two -->
+                <div class="most-package-box">
+                        <div class="package-item">
+                        <p  class="most-package-name">PRO</p>
+                        <h2 class="most-package-price">$749</h2>
+                        <p  class="common-package">per person</p>
+                        <hr class="most-hr">
+                        <ul>
+                            <li>Everything in Standard</li>
+                            <li>Unlimited workshop access</li>
+                            <li>Speaker meet & greet</li>
+                            <li>VIP networking dinner</li>
+                            <li>Lifetime recording access</li>
+                            <li>1-on-1 mentorship (30 min)</li>
+                        </ul>
+                        <button class="pro-package-button">Get Pro</button>
+                    </div>
+                </div>
+                <!-- package box three -->
+                <div class="package-item">
+                    <p class="common-package">TEAM</p>
+                    <h2 class="package-price">$5,999</h2>
+                    <p class="common-package">up to 10 people</p>
+                    <hr>
+                    <ul>
+                        <li>Everything in Pro (10 seats)</li>
+                        <li>Dedicated team lounge access</li>
+                        <li>Private workshop booking</li>
+                        <li>Company logo on event page</li>
+                        <li>Recruitment booth (1 day)</li>
+                        <li>Priority customer support</li>
+                    </ul>
+                    <button class="team-package-button">Contact Us</button>
+                </div>
+        </div>
+
+    </section>
 </body>
 </html>
