@@ -212,3 +212,141 @@ margin-bottom: 10px;
     background-color: #fff;
 
 }
+/* DevConf Experience Section */
+.experience-section {
+  padding: 100px 20px;
+  background: #f8fafc;
+}
+
+.experience-container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-heading h2 {
+  font-size: 44px;
+  color: #0f172a;
+  margin-bottom: 14px;
+}
+
+.section-heading p {
+  max-width: 620px;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #64748b;
+}
+
+/* Card Layout */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.experience-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 28px 24px;
+  transition: 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-6px);
+  border-color: #2563eb;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+}
+
+.experience-time {
+  display: inline-block;
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+}
+
+.experience-card h3 {
+  font-size: 22px;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.experience-card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #64748b;
+}
+
+/* Bottom CTA Box */
+.experience-cta {
+  margin-top: 40px;
+  padding: 36px;
+  background: #0f172a;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.experience-cta h3 {
+  color: #ffffff;
+  font-size: 28px;
+  margin-bottom: 22px;
+}
+
+.experience-btn {
+  display: inline-block;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 14px 34px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.experience-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .experience-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-heading h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 576px) {
+  .experience-section {
+    padding: 70px 16px;
+  }
+
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading h2 {
+    font-size: 30px;
+  }
+
+  .experience-cta {
+    padding: 28px 20px;
+  }
+
+  .experience-cta h3 {
+    font-size: 24px;
+  }
+
+  .experience-btn {
+    width: 100%;
+  }
+}
